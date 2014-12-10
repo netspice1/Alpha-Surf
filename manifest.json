@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+
+	"name": "Alpha-Surf",
+	"description": "This extension provides an alternate method to 'tab' through links on page.",
+	"version": "1.0",
+
+	  "content_scripts": [
+		{
+		  "matches": ["http://*/*"],
+		  "js": ["alphasurf.js"]
+		}
+	  ]
+}
